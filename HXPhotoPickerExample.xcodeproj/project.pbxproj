@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		185230A692DC297D65E35735 /* Pods_HXPhotoPickerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD48C3E6E6347457D779C67B /* Pods_HXPhotoPickerExample.framework */; };
 		22FF731281E1627A3C85A1FC /* Pods_SwiftUIExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD28551AEE6C4173CCBE4E8 /* Pods_SwiftUIExample.framework */; };
+		4FB628672E2647BF00641A21 /* vip_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB628662E2647BF00641A21 /* vip_icon@3x.png */; };
+		4FB628682E2647BF00641A21 /* vip_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB628662E2647BF00641A21 /* vip_icon@3x.png */; };
 		7B08596224FA58DF00E93091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B08592524FA58DE00E93091 /* ViewController.m */; };
 		7B20B41527A2A94D00375FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B20B3A327A2A94C00375FB6 /* Assets.xcassets */; };
 		7B64186124F76C67003A5723 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7B64186024F76C67003A5723 /* README.md */; };
@@ -520,6 +522,7 @@
 		13BF2BE36A47A48DD59FAAE3 /* Pods-SwiftUIExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIExample.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIExample/Pods-SwiftUIExample.debug.xcconfig"; sourceTree = "<group>"; };
 		16A9631049F51EB2C9886F18 /* Pods-HXPhotoPickerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXPhotoPickerExample.debug.xcconfig"; path = "Target Support Files/Pods-HXPhotoPickerExample/Pods-HXPhotoPickerExample.debug.xcconfig"; sourceTree = "<group>"; };
 		3582D2EABCA69E96E4C95300 /* Pods-HXPhotoPickerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXPhotoPickerExample.release.xcconfig"; path = "Target Support Files/Pods-HXPhotoPickerExample/Pods-HXPhotoPickerExample.release.xcconfig"; sourceTree = "<group>"; };
+		4FB628662E2647BF00641A21 /* vip_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vip_icon@3x.png"; sourceTree = "<group>"; };
 		7B08592524FA58DE00E93091 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7B08594F24FA58DE00E93091 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7B20B36327A2A94000375FB6 /* HXPhotoPickerExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HXPhotoPickerExample-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -1245,6 +1248,7 @@
 			isa = PBXGroup;
 			children = (
 				D30ED43C2A3C5D7D0074525C /* livephoto_image.jpeg */,
+				4FB628662E2647BF00641A21 /* vip_icon@3x.png */,
 				D368740F2A39744200E70910 /* hx_sticker_yuanqimanman.png */,
 				D36874102A39744200E70910 /* hx_sticker_housailei.png */,
 				D36874112A39744200E70910 /* portrait.png */,
@@ -2360,6 +2364,7 @@
 				D36874602A39744300E70910 /* hx_sticker_xiaochuzhujiao.png in Resources */,
 				D368747A2A39744300E70910 /* text.png in Resources */,
 				D368746C2A39744300E70910 /* hx_sticker_kehaixing.png in Resources */,
+				4FB628682E2647BF00641A21 /* vip_icon@3x.png in Resources */,
 				D36874722A39744300E70910 /* hx_sticker_jintianfenkeai.png in Resources */,
 				D368745E2A39744300E70910 /* hx_sticker_woxiangfazipai.png in Resources */,
 				D36874CC2A39744300E70910 /* 世间美好与你环环相扣.mp3 in Resources */,
@@ -2416,6 +2421,7 @@
 				D35D3D152AAC61E3004CBC30 /* hx_sticker_saihong.png in Resources */,
 				D35D3D162AAC61E3004CBC30 /* hx_sticker_jintianfenkeai.png in Resources */,
 				D35D3D172AAC61E3004CBC30 /* hx_sticker_keaibiaoq.png in Resources */,
+				4FB628672E2647BF00641A21 /* vip_icon@3x.png in Resources */,
 				D35D3D182AAC61E3004CBC30 /* love.png in Resources */,
 				D35D3D192AAC61E3004CBC30 /* stars.png in Resources */,
 				D35D3D1A2AAC61E3004CBC30 /* text.png in Resources */,
