@@ -14,6 +14,13 @@ class EditorChartletViewCell: UICollectionViewCell {
     var editorType: EditorContentViewType = .image
     var downloadCompletion = false
     
+    lazy var vipImageView:UIImageView = {
+        let view = UIImageView()
+//        view.isHidden = true
+        view.image = UIImage(named: "vip_icon@3x")
+        return view
+    }()
+    
     var titleChartlet: EditorChartletTitle! {
         didSet {
             selectedBgView.isHidden = !titleChartlet.isSelected
@@ -71,6 +78,8 @@ class EditorChartletViewCell: UICollectionViewCell {
         imageView = PhotoManager.ImageView.init()
         imageView.contentMode = .scaleAspectFit
         contentView.addSubview(imageView)
+        
+        contentView.addSubview(vipImageView)
     }
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -81,6 +90,8 @@ class EditorChartletViewCell: UICollectionViewCell {
         }else {
             imageView.frame = CGRect(x: 5, y: 5, width: width - 10, height: height - 10)
         }
+        
+        vipImageView.frame = CGRect(x: width - 24, y: 0, width: 24, height: 12)
     }
     
     required init?(coder: NSCoder) {
