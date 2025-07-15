@@ -39,7 +39,7 @@ public extension HX.ImageResource {
         /// iOS 13.0+
         case system(String)
         
-        var image: UIImage? {
+        public var image: UIImage? {
             switch self {
             case .local(let name):
                 return name.image
@@ -52,7 +52,7 @@ public extension HX.ImageResource {
             }
         }
         
-        var name: String {
+        public var name: String {
             switch self {
             case .local(let name):
                 return name
