@@ -39,6 +39,7 @@ extension EditorViewController: EditorToolsViewDelegate {
             }
             vc.modalPresentationStyle = config.chartlet.modalPresentationStyle
             vc.delegate = self
+            selectedTool = model
             present(vc, animated: true)
             return
         default:
