@@ -70,7 +70,7 @@ extension UIImage {
         return CIImage(cgImage: cgImage)
     }
     
-    var ext: Any? {
+    public var ext: Any? {
         get {
             // 获取关联对象的值
             return objc_getAssociatedObject(self, &AssociatedKeys.extPropertyKey)

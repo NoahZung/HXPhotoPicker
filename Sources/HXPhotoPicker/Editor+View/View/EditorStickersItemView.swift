@@ -118,6 +118,9 @@ class EditorStickersItemView: EditorStickersItemBaseView {
         mirrorView.addSubview(contentView)
         if !item.isAudio {
             externalBorder.borderColor = UIColor.white.cgColor
+            if ((item.image?.ext as? String)?.contains("\"isVip\":1") ?? false) {
+                externalBorder.borderColor = UIColor(red: 0xf9/255.0, green: 0xb7/255.0, blue: 0x00/255.0, alpha: 1.0).cgColor
+            }
             addSubview(deleteBtn)
             addSubview(scaleBtn)
         }

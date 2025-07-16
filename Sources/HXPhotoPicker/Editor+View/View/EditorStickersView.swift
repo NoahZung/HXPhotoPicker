@@ -327,7 +327,6 @@ class EditorStickersView: UIView, EditorStickersItemViewDelegate {
             }
         }
         itemView.firstTouch = isSelected
-        print(itemView.item.image?.ext)
         addSubview(itemView)
         itemView.update(pinchScale: pScale / self.scale, rotation: radians)
         if isSelected {
