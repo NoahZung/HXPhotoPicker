@@ -16,7 +16,7 @@ class EditorChartletViewCell: UICollectionViewCell {
     
     lazy var vipImageView:UIImageView = {
         let view = UIImageView()
-//        view.isHidden = true
+        view.isHidden = true
         view.image = UIImage(
             contentsOfFile: Bundle.main.path(
                 forResource: "vip_icon",

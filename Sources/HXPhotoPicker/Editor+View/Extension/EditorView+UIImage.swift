@@ -58,11 +58,32 @@ extension Data {
     }
 }
 extension UIImage {
+    
+    private struct AssociatedKeys {
+        static var extPropertyKey: UInt8 = 0
+    }
+    
     var ci_Image: CIImage? {
         guard let cgImage = self.cgImage else {
             return nil
         }
         return CIImage(cgImage: cgImage)
+    }
+    
+    var ext: Any? {
+        get {
+            // 获取关联对象的值
+            return objc_getAssociatedObject(self, &AssociatedKeys.extPropertyKey)
+        }
+        set {
+            // 设置关联对象（存储新值）
+            objc_setAssociatedObject(
+                self,
+                &AssociatedKeys.extPropertyKey,
+                newValue,
+                .OBJC_ASSOCIATION_RETAIN_NONATOMIC
+            )
+        }
     }
     
     func convertBlackImage() -> UIImage? {

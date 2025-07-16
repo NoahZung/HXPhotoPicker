@@ -125,12 +125,14 @@ class EditorChartletViewListCell: UICollectionViewCell,
                     switch $0 {
                     case .success(let result):
                         if let image = result.image {
+                            image.ext = cell.chartlet.ext
                             if self.editorType == .image {
                                 self.delegate?.listCell(self, didSelectImage: image, imageData: nil)
                                 return
                             }
                             self.delegate?.listCell(self, didSelectImage: image, imageData: result.imageData)
                         }else if let imageData = result.imageData, let image = UIImage(data: imageData) {
+                            image.ext = cell.chartlet.ext
                             if self.editorType == .image {
                                 self.delegate?.listCell(self, didSelectImage: image, imageData: nil)
                                 return
