@@ -49,6 +49,9 @@ class EditorChartletViewCell: UICollectionViewCell {
         didSet {
             selectedBgView.isHidden = true
             setupImage(image: chartlet.image, url: chartlet.url)
+            if let ext = chartlet.ext as? String {
+                vipImageView.isHidden = !ext.contains("\"isVip\":1")
+            }
         }
     }
     
