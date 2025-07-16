@@ -54,6 +54,10 @@ public class EditorStickersItemBaseView: UIView {
         item.audio
     }
     
+    public var image: UIImage? {
+        item.image
+    }
+    
     var item: EditorStickerItem!
 }
 
