@@ -52,7 +52,7 @@ public class EditorChartletViewController: HXBaseViewController, EditorChartletL
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .clear
+        view.backgroundColor = .black
         setupTitles(config.titles)
         initViews()
         view.addSubview(bgView)
