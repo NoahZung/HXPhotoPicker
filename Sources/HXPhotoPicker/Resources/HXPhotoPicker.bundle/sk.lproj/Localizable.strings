@@ -98,8 +98,8 @@
 "正方形" = "Square";
 "亮度" = "Brightness";
 "对比度" = "Contrast";
-"饱和度" = "Exposure";
-"曝光度" = "Saturation";
+"曝光度" = "Exposure";
+"饱和度" = "Saturation";
 "色温" = "Warmth";
 "暗角" = "Vignette";
 "锐化" = "Sharpen";

@@ -239,7 +239,7 @@ public class EditorChartletViewController: HXBaseViewController, EditorChartletL
             width: view.width,
             height: view.height - titleBgView.height
         )
-        titleView.frame = CGRect(x: 0, y: viewY, width: view.width, height: 50)
+        titleView.frame = CGRect(x: 0, y: viewY, width: view.width-50, height: 50)
         titleView.contentInset = UIEdgeInsets(
             top: 5,
             left: 15 + UIDevice.leftMargin,

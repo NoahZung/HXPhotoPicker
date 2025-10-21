@@ -57,32 +57,32 @@ public extension HXImageViewProtocol {
     }
     
     func setImage(with resource: ImageDownloadResource, placeholder: UIImage?, options: ImageDownloadOptionsInfo?, progressHandler: ((CGFloat) -> Void)?, completionHandler: ((Result<UIImage, ImageDownloadError>) -> Void)?) -> ImageDownloadTask? {
-        assertionFailure("请实现此方法用于加载网络图片")
+//        assertionFailure("请实现此方法用于加载网络图片")
         return nil
     }
     
     static func download(with resource: ImageDownloadResource, options: ImageDownloadOptionsInfo?, progressHandler: ((CGFloat) -> Void)?, completionHandler: ((Result<ImageDownloadResult, ImageDownloadError>) -> Void)?) -> ImageDownloadTask? {
-        assertionFailure("请实现此方法用于加载网络图片")
+//        assertionFailure("请实现此方法用于加载网络图片")
         return nil
     }
     
     static func getCacheKey(forURL url: URL) -> String {
-        assertionFailure("请实现此方法用于加载网络图片")
+//        assertionFailure("请实现此方法用于加载网络图片")
         return ""
     }
     
     static func getCachePath(forKey key: String) -> String {
-        assertionFailure("请实现此方法用于加载网络图片")
+//        assertionFailure("请实现此方法用于加载网络图片")
         return ""
     }
     
     static func isCached(forKey key: String) -> Bool {
-        assertionFailure("请实现此方法用于加载网络图片")
+//        assertionFailure("请实现此方法用于加载网络图片")
         return false
     }
     
     static func getInMemoryCacheImage(forKey key: String) -> UIImage? {
-        assertionFailure("请实现此方法用于加载网络图片")
+//        assertionFailure("请实现此方法用于加载网络图片")
         return nil
     }
     

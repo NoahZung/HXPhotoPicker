@@ -46,8 +46,11 @@ class EditorConfigurationViewController: UITableViewController {
                             ofType: "jpeg"
                         )!
                     )!
+                    config.buttonType = .top
+                    config.chartlet.modalPresentationStyle = .fullScreen
                     let vc = EditorViewController(.init(type: .image(image), result: editedResult), config: config)
                     vc.delegate = self
+                    vc.modalPresentationStyle = .fullScreen
                     present(vc, animated: true, completion: nil)
                 }else {
 //                    #if canImport(Kingfisher)
@@ -55,8 +58,10 @@ class EditorConfigurationViewController: UITableViewController {
                         string:
                             "https://wx4.sinaimg.cn/large/a6a681ebgy1gojng2qw07g208c093qv6.gif"
                     )!
+                    config.chartlet.modalPresentationStyle = .fullScreen
                     let vc = EditorViewController(.init(type: .networkImage(networkURL), result: editedResult), config: config)
                     vc.delegate = self
+                    vc.modalPresentationStyle = .fullScreen
                     present(vc, animated: true, completion: nil)
 //                    #else
 //                    let image = UIImage(
