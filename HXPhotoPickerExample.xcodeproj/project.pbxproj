@@ -3119,7 +3119,7 @@
 					"\"SwiftUI\"",
 					"-Wl",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xfrontend -debug-time-function-bodies";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xfrontend -debug-time-function-bodies -D NELKO";
 				PRODUCT_BUNDLE_IDENTIFIER = com.silence.example32;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3180,7 +3180,7 @@
 					"\"SwiftUI\"",
 					"-Wl",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xfrontend -debug-time-function-bodies";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xfrontend -debug-time-function-bodies -D NELKO";
 				PRODUCT_BUNDLE_IDENTIFIER = com.silence.example32;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
